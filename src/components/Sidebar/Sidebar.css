@@ -1,0 +1,20 @@
+
+.networks{
+    width: 40vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #39a900;
+}
+
+.personalImage{
+    margin-bottom: -4vh;
+}
+
+h3{
+    font-size: 3.1vh;
+    color:white;
+    text-decoration: underline;
+}

@@ -1,0 +1,22 @@
+.perfil{
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 5vh;
+
+}
+
+.perfil img{
+    width: 10vh;
+    height: 10vh;
+    margin: 0;
+}
+
+.perfil h3{
+    color: black;
+}
+
+.perfil p{
+    width: 90%;
+}

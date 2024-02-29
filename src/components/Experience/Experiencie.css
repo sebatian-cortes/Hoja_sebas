@@ -1,0 +1,22 @@
+.experiencie img{
+    
+    width: 10vh;
+    height: 10vh;
+    margin: 0;
+}
+
+.experiencie{
+    margin-top: 3vh;
+
+}
+
+.tecnologys{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 7vh;
+
+}
