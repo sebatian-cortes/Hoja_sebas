@@ -27,3 +27,10 @@ a{
     font-size: 2.6vh;
     text-decoration: none;
 }
+
+
+@media(max-width:600px){
+    nav{
+        height: 20vh;
+    }
+}

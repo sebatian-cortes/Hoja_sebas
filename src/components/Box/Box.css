@@ -1,6 +1,11 @@
 .box{
     margin-top: 3vh;
-width: 20vh;
-height: 20vh;
+width: 30vh;
+height: 30vh;
 border: 3px solid black;
+display: flex;
+justify-content: center;
+padding-left: 2vh;
+flex-direction: column;
+color: black;
 }

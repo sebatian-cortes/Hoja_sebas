@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 100%;
     margin-top: 5vh;
+    margin-bottom: 40vh;
 
 }
 
@@ -19,4 +20,22 @@
 
 .perfil p{
     width: 90%;
+
+
+
 }
+
+
+@media(max-width:600px){
+    .perfil{
+        margin-bottom: 96vh;
+    }
+}
+
+@media(max-width:780px){
+    .perfil{
+        margin-bottom: 69vh;
+    }
+}
+
+

@@ -7,17 +7,19 @@
 
 }
 
+
 .title h3{
-    font-size: 3vh;
+    font-size: 5.5vh;
     text-decoration: none;
-    color: black;
+    color: #5A5A5D;
 }
 
 hr{
-    background-color: rgb(12, 143, 29);
+    background-color: #C1FF95;
     font-size: 10px;
     width: 90%;
     height: 2vh;
     margin-top: 2vh;
+    border: none;
 }
 

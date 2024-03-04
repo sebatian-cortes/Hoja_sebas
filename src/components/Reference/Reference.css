@@ -4,6 +4,14 @@
     margin: 0;
 }
 
-.reference{
-    margin-top: 3vh;
+
+
+.re{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 90%;
+    flex-wrap: wrap;
 }
+

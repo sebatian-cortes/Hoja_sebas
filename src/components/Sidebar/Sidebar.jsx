@@ -1,6 +1,6 @@
 import React from 'react'
-import logo1 from '../../assets/logoSena2.png'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logoSena.png'
+import development from '../../assets/yotas.jpg'
 import { Navbar } from '../Navbar/Navbar'
 import { Logo } from '../Logo/Logo'
 import '../Sidebar/Sidebar.css'
@@ -11,12 +11,14 @@ export const Sidebar = () => {
   return (
     <div className='networks'>
     <div className='personalImage'>
-    <Logo image = {logo} />
-    </div>
+    <Logo image = {development} />
     <h3>Sebastian Agudelo</h3>
+    </div>
     <Navbar />
-    <Logo image={logo1} />
+    <div className='boxNetworks'>
+    <Logo image={logo} />
     <Networks/>
+    </div>
     </div>
   )
 }

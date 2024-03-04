@@ -4,6 +4,8 @@ import '../Main/Main.css'
 import { Projects } from '../../Projects/Projects'
 import { Reference } from '../../Reference/Reference'
 import { Experiencie } from '../../Experience/Experiencie'
+import { Button } from '../../Button/Button'
+
 
 
 
@@ -15,6 +17,7 @@ export const Main = () => {
     <Projects/>
     <Reference/>
     <Experiencie/>
+    <Button/>
      </main>
   )
 }

@@ -1,4 +1,14 @@
 header{
-    width: 30%;
-position:fixed ;
+    width: 27%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+
+}
+
+@media(max-width:600px){
+  header{
+    position: static;
+    width: 100%;
+  }
 }

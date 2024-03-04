@@ -2,17 +2,34 @@
 .CardGeneral {
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 40vh;
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
     margin: 10px;
     background-color: #39a900;
-    height: 100px;
+    height: 20vh;
+}
+
+.CardGeneral p{
+    color: white;
+}
+
+.CardGeneral a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.contentImgCard h4{
+    color: white;
 }
 .contentImgCard{
     width: 40%;
     height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .imgCard {
     width: 6rem;
@@ -22,6 +39,8 @@
 .ContentofCard {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
     flex-direction: column;
     width: 60%;
     height: auto;
@@ -40,6 +59,9 @@
 }
 
 .enlaCard {
+    border-radius: 10px;
+    width: 13vh;
+    background-color: #58d41b;
     font-size: 1rem;
     color: #000000;
     /* Cambia el color según tus preferencias */
@@ -49,4 +71,18 @@
 
 .enlaCard:hover {
     text-decoration: underline;
+}
+
+@media(max-width:1279px){
+    
+.CardGeneral {
+    
+    width: 40vh;
+    height: 30vh;
+}
+
+.contentImgCard h4{
+   font-size: 3vh;
+   text-align: center;
+}
 }

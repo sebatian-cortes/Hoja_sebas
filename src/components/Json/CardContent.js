@@ -1,25 +1,26 @@
 export const CardContent =[
     {
         _id: 1,
-        title: "Mongo Work",
-        image: "../../../public/logo.png",
-        description: "Description",
-        enlace:"Ir a proyecto"
+        title: "IMC Java",
+        image: "../../../public/Java.png",
+        description: "Proyecto masa moscular Java",
+        enlace:"https://github.com/sebatian-cortes/IMC_Java"
+
     
     },
     {
         _id: 2,
-        title: "Api Rest",
-        image: "../../assets/apiRest.png",
-        description: "Description",
-        enlace:"Ir a proyecto"
+        title: "Bot Musica",
+        image: "../../../public/bot.png",
+        description: "Bot Musica Python",
+        enlace:"https://github.com/sebatian-cortes/Bot_Musica"
     
     },
     {
         _id: 3,
         title: "Bleux",
-        image: "../../assets/bleux.jpg",
-        description: "Description",
+        image: "../../../public/bleux.png",
+        description: "Pagina Bleux",
         enlace:"https://github.com/sebatian-cortes/Bleux.git"
     
     }

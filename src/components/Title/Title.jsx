@@ -1,6 +1,6 @@
 import React from 'react'
 import { Logo } from '../Logo/Logo'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logoSena.png'
 import '../Title/Title.css'
 
 export const Title = ({content}) => {
