@@ -9,6 +9,13 @@ header{
 @media(max-width:600px){
   header{
     position: static;
-    width: 106%;
+    width: 100%;
   }
 }
+
+@media(max-width:400px){
+    header{
+      position: static;
+      width: 106%;
+    }
+  }
