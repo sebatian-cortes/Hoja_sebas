@@ -16,3 +16,12 @@
         background: none;
     }
 }
+
+@media(max-width:345px){
+    .icons{
+        width: 100vw;
+        background: none;
+        font-size: 6vh;
+        text-align: center;
+    }
+  }
