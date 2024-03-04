@@ -23,3 +23,9 @@
     height: 20vh;
     margin-bottom: 2vh;
 }
+
+@media(max-width:600px){
+    .progress{
+        width: 40vh;
+    }
+}

@@ -8,7 +8,7 @@ import { Box } from '../Box/Box'
 export const Reference = () => {
   return (
     <div className='reference'>
-       <Title content='REFERENCE'/>
+       <Title content='REFERENCIAS'/>
 
        <div className="re">
         {

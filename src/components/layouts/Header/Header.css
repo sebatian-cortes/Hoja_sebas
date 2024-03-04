@@ -9,6 +9,6 @@ header{
 @media(max-width:600px){
   header{
     position: static;
-    width: 100%;
+    width: 106%;
   }
 }
