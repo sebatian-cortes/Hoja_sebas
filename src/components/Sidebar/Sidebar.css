@@ -74,7 +74,7 @@ h3{
 
   }
 
-  @media(max-width:345px){
+  @media(max-width:400px){
     .networks{
         display: flex;
       flex-direction: column;

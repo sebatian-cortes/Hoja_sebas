@@ -17,7 +17,7 @@
     }
 }
 
-@media(max-width:345px){
+@media(max-width:400px){
     .icons{
         width: 100vw;
         background: none;
